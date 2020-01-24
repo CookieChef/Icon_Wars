@@ -23,7 +23,7 @@ restartGame = () => {
 
 //user chooses sword as a weapon
 swordSelect = () => {
-    console.log("you chose the soword!");
+    console.log("you chose to use the soword!");
 }
 
 //user chooses magic as a weapon
