@@ -15,3 +15,12 @@ body {
     color: white;
     background-color: rgb(117, 167, 117); ;
 }
+#resetButton {
+    color: rgb(182, 61, 61);
+    border: 2px solid rgb(182, 61, 61);
+    border-radius: 30px;
+}
+#resetButton:hover {
+    color: white;
+    background-color:rgb(182, 61, 61) ;
+}
