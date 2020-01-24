@@ -8,10 +8,6 @@ playGame = () =>{
     $("#example").html("game stuff can go here");
 }
 
-//function that displays the game rules 
-showRules = () =>{
-    console.log("Rules are:");
-}
 
 //function that refreshes the page when clicked. 
 restartGame = () => {

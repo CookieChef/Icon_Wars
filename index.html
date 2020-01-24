@@ -33,10 +33,10 @@
                 <h5> Welcome to Icon Wars </h5>
             </div>
             <div class="card-body">
-                <p class="card-title">Its you VS. the Monsters!</p>
+                <p class="card-title">It's you VS. the Monsters!</p>
                 <p class="card-text"> Rules:</p>
                 <button onclick="playGame()" class="btn btn-lg" id="playButton">PLAY</button>
-                <button onclick="showRules()" class="btn btn-lg" id="rulesButton" data-toggle="collapse"
+                <button class="btn btn-lg" id="rulesButton" data-toggle="collapse"
                     data-target="#rules" aria-expanded="false" aria-controls="rules">RULES</button>
                 <button onclick="restartGame()" class="btn btn-lg" id="resetButton">QUIT</button>
             </div>
@@ -45,7 +45,14 @@
         <div class="container">
             <div class="collapse" id="rules">
                 <div class="card card-body">
-                    Anim pariatur cliche reprehenderit
+                    <p>Press "play" to start the game or "quit" if you'd rather leave or resart the game.</p>
+                    <p>Select your source of power to defeat the monster.</p>
+                    <p>You can chose:
+                            <p>Magic, Sword or Bow</p> </p>
+                    <p>Once you select your weapon of choice you now select your opponent</p>
+                    <p>Click on the "attack" button to deal damage, but you will also take damage!</p>
+                    <p>You can only attack one monster at a time.</p>
+                    <p>You win if you defeat the monster before he defeats you by droping your health to 0.</p>
                 </div>
             </div>
         </div>
