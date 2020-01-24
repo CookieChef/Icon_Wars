@@ -40,12 +40,21 @@ body {
 #sword{
     background-color: transparent;
     border-color: transparent;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #magic{
     background-color: transparent;
     border-color: transparent;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #bow{
     background-color: transparent;
     border-color: transparent;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }

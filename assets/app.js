@@ -6,11 +6,11 @@ console.log("Thank you for playing!");
 playGame = () =>{ 
     console.log("game start!");
     $("#weapon").prepend("Chose your weapon:" + "<br />");
-    $("#sword").append("<img src='assets/images/sword.png' style='width:100%'>");    
-    $("#magic").append("<img src='assets/images/magic.png' style='width:100%'>");
-    $("#bow").append("<img src='assets/images/bow.png' style='width:100%'>");
+    $("#sword").append("<img src='assets/images/sword.png' style='width:100%;'>");    
+    $("#magic").append("<img src='assets/images/magic.png' style='width:100%;'>");
+    $("#bow").append("<img src='assets/images/bow.png' style='width:100%;'>");
 
-    
+    style="text-align: center;"
     // $("#example").append("second line");
     // $("#example").append("<br />" + "third line");
 }
