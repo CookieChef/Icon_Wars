@@ -2,6 +2,16 @@
 $(document).ready(function () {
 console.log("Thank you for playing!");
 
+//function that starts the game and contains the logic
+playGame = () =>{ 
+    console.log("game start!");
+}
+
+//function that refreshes the page when clicked. 
+restartGame = () => {
+    location.reload(true);
+}
+
 
 
 
