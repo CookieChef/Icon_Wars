@@ -1,3 +1,8 @@
 body {
     background-color: black;
+    font-family: 'Source Code Pro', monospace;
+    /* color: white; */
+}
+.card {
+    /* background-color: transparent; */
 }
