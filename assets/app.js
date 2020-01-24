@@ -5,7 +5,9 @@ console.log("Thank you for playing!");
 //function that starts the game and contains the logic
 playGame = () =>{ 
     console.log("game start!");
-    $("#example").html("game stuff can go here");
+    $("#example").html("first line" + "<br />");
+    $("#example").append("second line");
+    $("#example").append("<br />" + "third line");
 }
 
 
