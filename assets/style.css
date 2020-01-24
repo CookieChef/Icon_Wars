@@ -4,6 +4,7 @@ body {
     /* color: white; */
 }
 .card {
+    text-align: center;
     /* background-color: transparent; */
 }
 #playButton {
@@ -23,4 +24,13 @@ body {
 #resetButton:hover {
     color: white;
     background-color:rgb(182, 61, 61) ;
+}
+#rulesButton {
+    color: rgb(67, 67, 170);
+    border: 2px solid rgb(67, 67, 170);
+    border-radius: 30px;
+}
+#rulesButton:hover {
+    color:white;
+    background-color: rgb(67, 67, 170);
 }
