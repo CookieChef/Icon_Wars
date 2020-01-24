@@ -34,3 +34,18 @@ body {
     color:white;
     background-color: rgb(67, 67, 170);
 }
+#weapon{
+    text-align: center;
+}
+#sword{
+    background-color: transparent;
+    border-color: transparent;
+}
+#magic{
+    background-color: transparent;
+    border-color: transparent;
+}
+#bow{
+    background-color: transparent;
+    border-color: transparent;
+}
