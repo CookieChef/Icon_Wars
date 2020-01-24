@@ -1,8 +1,17 @@
 body {
-    background-color: black;
+    /* background-color: black; */
     font-family: 'Source Code Pro', monospace;
     /* color: white; */
 }
 .card {
     /* background-color: transparent; */
+}
+#playButton {
+    color:rgb(117, 167, 117);
+    border: 2px solid rgb(117, 167, 117);
+    border-radius: 30px;
+}
+#playButton:hover {
+    color: white;
+    background-color: rgb(117, 167, 117); ;
 }
