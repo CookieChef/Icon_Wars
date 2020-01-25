@@ -9,7 +9,7 @@ playGame = () =>{
     $("#weapon").prepend("Chose your weapon:" + "<br />");
     //add the "<img>" tag to each of the following elements "
     $("#sword").append("<img src='assets/images/sword.png' style='width:100%;'>");    
-    $("#magic").append("<img src='assets/images/magic.png' style='width:100%;'>");
+    $("#magic").append("<img src='assets/images/wizard.png' style='width:100%;'>");
     $("#bow").append("<img src='assets/images/bow.png' style='width:100%;'>");
 }
 
