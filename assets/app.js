@@ -2,8 +2,8 @@
 $(document).ready(function () {
 console.log("Thank you for playing!");
 
-var health = 100;
-
+var myHealth = 100;
+var enemyHealth = 100;
 //function that starts the game and contains the logic
 playGame = () =>{ 
     console.log("game start!");
@@ -11,9 +11,24 @@ playGame = () =>{
 }
 
 //funciton for attack action;
-// attackAction = () =>{
+attackAction = () =>{
+    var dmgDone = Math.floor(Math.random() * 40) + 1;
+    var dmgRecv = Math.floor(Math.random() * 40) + 1;
 
-// }
+    var myCurrentHealth = myHealth -= dmgRecv;
+    var enemyCurrentHealth = enemyHealth -= dmgDone;
+    console.log("damage done: " + dmgDone);
+    console.log("damage recieved: " + dmgRecv);
+    console.log("my current health: " + myCurrentHealth);
+    console.log("enemy current health: " + enemyCurrentHealth);
+    if (myCurrentHealth >0 && enemyCurrentHealth>0){
+        console.log("keep going");
+        console.log("-------------------");
+    }else {
+        console.log("game over");
+        console.log("-------------------");
+    }
+}
 
 //user chooses sword as a weapon
 swordSelect = () => {
