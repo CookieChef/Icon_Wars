@@ -86,19 +86,39 @@ gorillaSelect = () => {
 }
 
 godzillaSelect = () => {
-
+    $("#crocodile").empty();
+    $("#gorilla").empty();
+    $("#dragon").empty();
+    $("#octopus").empty();
+    $("#shark").empty();
+    $("#snake").empty();
 }
 
 octopusSelect = () => {
-
+    $("#crocodile").empty();
+    $("#gorilla").empty();
+    $("#godzilla").empty();
+    $("#dragon").empty();
+    $("#shark").empty();
+    $("#snake").empty();
 }
 
 sharkSelect = () => {
-
+    $("#crocodile").empty();
+    $("#gorilla").empty();
+    $("#godzilla").empty();
+    $("#octopus").empty();
+    $("#dragon").empty();
+    $("#snake").empty();
 }
 
 snakeSelect = () => {
-
+    $("#crocodile").empty();
+    $("#gorilla").empty();
+    $("#godzilla").empty();
+    $("#octopus").empty();
+    $("#shark").empty();
+    $("#dragon").empty();
 }
 
 
