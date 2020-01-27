@@ -34,10 +34,10 @@ body {
     color:white;
     background-color: rgb(67, 67, 170);
 }
-#weapon, #opponent{
+#weapon, #opponent, #stats{
     text-align: center;
 }
-#sword, #magic, #bow, #charge, #dragon, #crocodile, #gorilla, #godzilla, #octopus, #shark, #snake{
+#sword, #magic, #bow, #charge, #dragon, #crocodile, #gorilla, #godzilla, #octopus, #shark, #snake, #attack{
     background-color: transparent;
     border-color: transparent;
     display:block;

@@ -41,6 +41,8 @@ weaponSelect = () => {
     $("#magic").append("<img src='assets/images/wizard.png' style='width:100%;'>");
     $("#bow").append("<img src='assets/images/bow.png' style='width:100%;'>");
     $("#charge").append("<img src='assets/images/vs.png' style='width:100%;'>")
+    $("#attack").prepend("Attack!");
+    $("#attack").append("<img src='assets/images/gloves.png' style='width:100%;'>");
     opponentSelect();
       }
 
