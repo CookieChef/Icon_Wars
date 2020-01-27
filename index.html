@@ -36,8 +36,8 @@
                 <p class="card-title">It's you VS. the Monsters!</p>
                 <p class="card-text"> Rules:</p>
                 <button onclick="playGame()" class="btn btn-lg" id="playButton">PLAY</button>
-                <button class="btn btn-lg" id="rulesButton" data-toggle="collapse"
-                    data-target="#rules" aria-expanded="false" aria-controls="rules">RULES</button>
+                <button class="btn btn-lg" id="rulesButton" data-toggle="collapse" data-target="#rules"
+                    aria-expanded="false" aria-controls="rules">RULES</button>
                 <button onclick="restartGame()" class="btn btn-lg" id="resetButton">QUIT</button>
             </div>
         </div>
@@ -48,7 +48,8 @@
                     <p>Press "play" to start the game or "quit" if you'd rather leave or resart the game.</p>
                     <p>Select your source of power to defeat the monster.</p>
                     <p>You can chose:
-                            <p>Magic, Sword or Bow</p> </p>
+                        <p>Magic, Sword or Bow</p>
+                    </p>
                     <p>Once you select your weapon of choice you now select your opponent</p>
                     <p>Click on the "attack" button to deal damage, but you will also take damage!</p>
                     <p>You can only attack one monster at a time.</p>
@@ -57,34 +58,59 @@
             </div>
         </div>
         <br>
-
-        
         <div class="container" id="weapon">
             <br>
             <div class="row">
                 <div class="col-sm-4">
-                    <button button type="button" class="card" style="width:5rem;" id="sword" onclick="swordSelect()">
-                        <!-- <img src='assets/images/sword.png' style='width:100%'> -->
-                </button>
-            </div> 
-              
-            <div class="col-sm-4">
-                <button button type="button" class="card" style="width:5rem;" id="magic" onclick="magicSelect()">
-                    <!-- <img src='assets/images/magic.png' style='width:100%'> -->
-            </button>
-        </div>  
-        <div class="col-sm-4">
-            <button button type="button" class="card" style="width:5rem;" id="bow" onclick="bowSelect()">
-                <!-- <img src='assets/images/bow.png' style='width:100%'> -->
-        </button>
-    </div>    
-        </div>
-    
-        
+                    <button type="button" class="card" style="width:5rem;" id="sword" onclick="swordSelect()">
+                    </button>
+                </div>
 
-    </div>
-    <!--Script tag connection .JS file-->
-    <script src="assets/app.js"></script>
+                <div class="col-sm-4">
+                    <button type="button" class="card" style="width:5rem;" id="magic" onclick="magicSelect()">
+                    </button>
+                </div>
+                <div class="col-sm-4">
+                    <button type="button" class="card" style="width:5rem;" id="bow" onclick="bowSelect()">
+                    </button>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-12">
+                    <button type="button" class="card" style="width:5rem" id="charge" onclick="attackAction()"></button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container" id="opponent">
+            <br>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="card" style="width:5rem;" id="dragon" onclick="dragonSelect()"></button>
+                </div>
+                <div class="col">
+                    <button type="button" class="card" style="width:5rem;" id="crocodile" onclick="crocodileSelect()"></button>
+                </div>
+                <div class="col">
+                    <button type="button" class="card" style="width:5rem;" id="gorilla" onclick="gorillaSelect()"></button>
+                </div>
+                <div class="col">
+                    <button type="button" class="card" style="width:5rem;" id="godzilla" onclick="gordzillaSelect()"></button>
+                </div>
+                <div class="col">
+                    <button type="button" class="card" style="width:5rem;" id="octopus" onclick="octopusSelect()"></button>
+                </div>
+                <div class="col">
+                    <button type="button" class="card" style="width:5rem;" id="shark" onclick="sharkSelect()"></button>
+                </div>
+                <div class="col">
+                    <button type="button" class="card" style="width:5rem;" id="snake" onclick="snakeSelect()"></button>
+                </div>
+            </div>
+        </div>
+        <!--Script tag connection .JS file-->
+        <script src="assets/app.js"></script>
 </body>
 
 </html>
