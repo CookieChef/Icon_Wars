@@ -59,15 +59,30 @@ bowSelect = () => {
 }
 
 dragonSelect = () => {
-
+    $("#crocodile").empty();
+    $("#gorilla").empty();
+    $("#godzilla").empty();
+    $("#octopus").empty();
+    $("#shark").empty();
+    $("#snake").empty();
 }
 
 crocodileSelect = () => {
-
+    $("#dragon").empty();
+    $("#gorilla").empty();
+    $("#godzilla").empty();
+    $("#octopus").empty();
+    $("#shark").empty();
+    $("#snake").empty();
 }
 
 gorillaSelect = () => {
-
+    $("#crocodile").empty();
+    $("#dragon").empty();
+    $("#godzilla").empty();
+    $("#octopus").empty();
+    $("#shark").empty();
+    $("#snake").empty();
 }
 
 godzillaSelect = () => {
@@ -83,7 +98,7 @@ sharkSelect = () => {
 }
 
 snakeSelect = () => {
-    
+
 }
 
 
